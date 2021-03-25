@@ -1,0 +1,49 @@
+---
+name: Project Kalian
+about: Pamerkan produk kalian.
+title: my project
+labels: ''
+assignees: ''
+
+---
+
+## Project description
+
+<!--[_Jelaskan project kamu sebaik mungkin. Apa kegunaan, tujuan dan fitur apa saja yang ada di project kamu ini.._]-->
+
+## Links
+<!--[_Tulis URL project kalian jika sudah di deploy. Contohnya: https://kodekuy.web.app/_]-->
+
+## Relevant Technology
+
+<!--[_Tulis teknologi yang digunakan. Bahasa pemrograman apa, platform apa, semua library/framework/project yang digunakan_]-->
+
+### Categories
+
+- [ ] Mobile app
+- [ ] Portofolio
+- [ ] IoT
+- [ ] Web app
+- [ ] Frontend/UI
+- [ ] AI/ML
+- [ ] APIs/Backend
+- [ ] Voice Assistant
+- [ ] Developer Tooling
+- [ ] Extension/Plugin/Add-On
+- [ ] Design/UX
+- [ ] AR/VR
+- [ ] Bots
+- [ ] Security
+- [ ] Blockchain
+- [ ] Futuristic Tech/Something Unique
+
+## Github Repo
+
+<!--[_Jika ada repository github yang kamu gunakan untuk project kalian, tuliskan disini. Contohnya: https://github.com/kodekuy/kodekuy-list-project_]-->
+
+
+## Owner
+
+- Nama kamu
+- Twitter: @t
+- Instagram: @i
