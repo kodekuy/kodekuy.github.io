@@ -1,0 +1,48 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#projects .row img {
+  margin: -1rem;
+  width: calc(100% + 2rem);
+  padding-bottom: 2rem;
+}
+
+.bg-blue {
+  background-color: #a2d9ff !important;
+}
+
+.card-body {
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.blur {
+  position: absolute;
+  top: 141px;
+  left: 0;
+  right: 0;
+  height: 250px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0),
+    rgb(255 255 255)
+  );
+}
+
+.detail {
+    overflow-wrap: anywhere;
+}
+.detail img {
+    width: 100%;
+}

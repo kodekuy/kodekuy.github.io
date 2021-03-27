@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="List Ide Project dan Tutorial">
+  <meta name="author" content="Heri Gunawan">
+  <title>Projects List</title>
+
+  <link rel="canonical" href="https://kodekuy.github.io/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="/app.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="/favicon.ico">
+  <meta name="theme-color" content="#7952b3">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2KSKC3WNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L2KSKC3WNY');
+  </script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">How to</h4>
+            <p class="text-muted">Kirim Project yang sudah kalian buat <a
+                href="https://github.com/kodekuy/kodekuy.github.io/issues/new?assignees=&labels=&template=project-kalian.md&title=my+project"
+                target="_blank">di
+                sini</a>. Anda harus memiliki akun github untuk mengirimkan project kalian. Masuk ke repository <a
+                href="https://github.com/kodekuy/kodekuy.github.io/">Kodekuy</a> dan buat issue baru yang berisi detail
+              project kalian. Nanti issue yang kalian submit akan otomatis muncul di website ini.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://twitter.com/aageboi" class="text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path
+                      d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                  </svg> Follow on Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" />
+          </svg>
+          <strong>Projects Collection</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 pt-3">
+          <nav
+            style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">All Projects</a></li>
+              <li class="breadcrumb-item active label-name" aria-current="page">Detail Project</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="col-lg-6 col-md-8 mx-auto text-center py-2">
+          <h1 class="fw-light" id='issue-title'>Loading...</h1>
+        </div>
+        <div class="col-md-8 detail" id="issue-body"></div>
+        <div class="col-md-8" id="labels"></div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0"
+          aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+      </div>
+
+      <div class="row justify-content-center mt-2 d-none" id="block-comment">
+        <div class="col-md-8 mt-5 border border-2 p-3 border-info" id="comments"></div>
+        <div class="col-md-8">
+          <div class="d-flex flex-row-reverse bd-highlight">
+            <div class="p-2 bd-highlight">
+              <a id="issue-a" class='btn btn-outline-danger mb-1'
+                href="https://github.com/kodekuy/kodekuy.github.io/issues">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+                </svg> Send comments</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#a2d9ff" fill-opacity="1"
+        d="M0,224L0,160L36.9,160L36.9,288L73.8,288L73.8,192L110.8,192L110.8,96L147.7,96L147.7,224L184.6,224L184.6,128L221.5,128L221.5,0L258.5,0L258.5,224L295.4,224L295.4,64L332.3,64L332.3,32L369.2,32L369.2,96L406.2,96L406.2,256L443.1,256L443.1,288L480,288L480,192L516.9,192L516.9,288L553.8,288L553.8,288L590.8,288L590.8,64L627.7,64L627.7,256L664.6,256L664.6,32L701.5,32L701.5,224L738.5,224L738.5,288L775.4,288L775.4,64L812.3,64L812.3,0L849.2,0L849.2,192L886.2,192L886.2,128L923.1,128L923.1,96L960,96L960,192L996.9,192L996.9,96L1033.8,96L1033.8,64L1070.8,64L1070.8,192L1107.7,192L1107.7,160L1144.6,160L1144.6,64L1181.5,64L1181.5,32L1218.5,32L1218.5,192L1255.4,192L1255.4,288L1292.3,288L1292.3,0L1329.2,0L1329.2,288L1366.2,288L1366.2,0L1403.1,0L1403.1,128L1440,128L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z">
+      </path>
+    </svg>
+
+
+
+  </main>
+  <footer class="text-muted py-5" style="background-color:#a2d9ff;">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top <span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+            </svg></span></a>
+      </p>
+      <p class="mb-1">Made with <span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+            <path
+              d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z" />
+          </svg></span> by <a href="https://aageboi.github.io">aageboi</a></p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.7/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+  <script src="/js/detail.js"></script>
+
+
+</body>
+
+</html>
