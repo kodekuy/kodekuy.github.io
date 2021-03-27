@@ -1,6 +1,6 @@
 ---
 name: Project Kalian
-about: Pamerkan produk kalian.
+about: Pamerkan karya kalian.
 title: my project
 labels: ''
 assignees: ''
@@ -9,6 +9,7 @@ assignees: ''
 
 ## Project description
 
+<!--[<img src='' alt="project name" width="300" />]-->
 <!--[_Jelaskan project kamu sebaik mungkin. Apa kegunaan, tujuan dan fitur apa saja yang ada di project kamu ini.._]-->
 
 ## Links
@@ -18,24 +19,6 @@ assignees: ''
 
 <!--[_Tulis teknologi yang digunakan. Bahasa pemrograman apa, platform apa, semua library/framework/project yang digunakan_]-->
 
-### Categories
-
-- [ ] Mobile app
-- [ ] Portofolio
-- [ ] IoT
-- [ ] Web app
-- [ ] Frontend/UI
-- [ ] AI/ML
-- [ ] APIs/Backend
-- [ ] Voice Assistant
-- [ ] Developer Tooling
-- [ ] Extension/Plugin/Add-On
-- [ ] Design/UX
-- [ ] AR/VR
-- [ ] Bots
-- [ ] Security
-- [ ] Blockchain
-- [ ] Futuristic Tech/Something Unique
 
 ## Github Repo
 
